@@ -15,7 +15,7 @@ nav_order: 1
 <li><a href="https://canvas.newcastle.ac.uk">Canvas</a></li>
 <li><a href="https://teams.microsoft.com">Teams</a></li>
 <li><a href="https://github.com">GitHub</a></li>
-<li><a href="/teaching/">Teaching Notes</li>
+<li><a href="/teaching/">Teaching Notes</a></li>
 </ul>
 
 </div>
@@ -66,8 +66,9 @@ nav_order: 1
 <h2>📝 Recently Updated</h2>
 
 <ul>
-<li><a href="#">Thoughts on Seminar Supervision</a>Image Analysis Practical Notes</a></li>
-<li><a href="#">Single-Nucleus Sequencing></li>
+<li><a href="#">Thoughts on Seminar Supervision</a></li>
+<li><a href="#">Image Analysis Practical Notes</a></li>
+<li><a href="#">Single-Nucleus Sequencing</a></li>
 </ul>
 
 </div>
