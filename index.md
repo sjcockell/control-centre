@@ -13,9 +13,10 @@ nav_order: 1
 
 <ul>
 <li><a href="https://canvas.newcastle.ac.uk">Canvas</a></li>
-<teams.microsoft.comTeams</a></li>
-<li>https://github.comGitHub</a></li>
-<li><a href="/teaching/">Teaching Notes</l>
+<li><a href="https://teams.microsoft.com">Teams</a></li>
+<li><a href="https://github.com">GitHub</a></li>
+<li><a href="/teaching/">Teaching Notes</li>
+</ul>
 
 </div>
 
@@ -23,8 +24,7 @@ nav_order: 1
 <h2>🧬 Research</h2>
 
 <ul>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov">PubMed</a></li/a></li>
-<li><Galaxy</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov">PubMed</a></li>
 <li><a href="/research/">tes</a></li>
 </ul>
 
@@ -35,8 +35,7 @@ nav_order: 1
 
 <ul>
 <li><a href="/journal/">Recent Entries</a></li>
-<li><a href="/s</a></li>
-<li><projects/Project Log</a></li>
+<li><a href="projects/">Project Log</a></li>
 </ul>
 
 </div>
@@ -45,9 +44,9 @@ nav_order: 1
 <h2>✅ Tasks</h2>
 
 <ul>
-<li><a href="https://github.com/users/YOURUSERNAME/projects/1">Teaching li>
-<li>https://github.com/users/YOURUSERNAME/projects/2Research Board</a></li>
-<li><a href="https://github.com/users/YOURUSERNAME/projects/3">Personal/li>
+<li><a href="https://github.com/users/YOURUSERNAME/projects/1">Teaching</a></li>
+<li><a href="https://github.com/users/YOURUSERNAME/projects/2">Research Board</a></li>
+<li><a href="https://github.com/users/YOURUSERNAME/projects/3">Personal</a></li>
 </ul>
 
 </div>
