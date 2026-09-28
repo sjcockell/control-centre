@@ -1,9 +1,10 @@
-title: Prof SJ Cockell Control Centre
+title: Simon's Control Centre
 description: Everything in one place?
-theme: just-the-docs
 
-url: https://sjcockell.github.io/control-centre
+theme: just-the-docs
 color_scheme: dark
 
+url: https://sjcockell.github.io/control-centre
+
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  GitHub: https://github.com/sjcockell
