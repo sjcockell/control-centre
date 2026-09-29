@@ -12,10 +12,7 @@ nav_order: 1
 <h2>🎓 Teaching</h2>
 
 {% for item in site.data.bookmarks.teaching %}
-<a href="{{ item.url }}">
-<i class="fa-brand {{ item.icon }}"></i>
-<span>{{ item.name }}</span>
-</a>
+[<i class="fa-solid {{ item.icon }}"></i> {{item.name}}]({{item.url}})
 {% endfor %}
 
 </div>
