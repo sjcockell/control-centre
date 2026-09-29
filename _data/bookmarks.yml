@@ -1,10 +1,10 @@
 teaching:
 - name: Canvas
-  icon: fa-school
+  icon: fa-solid fa-school
   url: https://canvas.newcastle.ac.uk
 - name: Teams
-  icon: fa-microsoft
+  icon: fa-brands fa-microsoft
   url: https://teams.microsoft.com
 - name: GitHub
-  icon: fa-github
+  icon: fa-brands fa-github
   url: https://github.com
