@@ -12,8 +12,9 @@ nav_order: 1
 <h2>>🎓 Teaching</h2>
 
 {% for item in site.data.bookmarks.teaching %}
-<button type="button" name="button" class="btn"><i class="fas {{ item.icon }}"></i>{{item.name}}</button>
+<button type="button" name="button" class="btn"><i class="fas {{ item.icon }}"></i> {{item.name}}</button>
 {{item.url}}
+<a href="{{item.url}}" class="btn">Some text</a>
 {% endfor %}
 
 </div>
