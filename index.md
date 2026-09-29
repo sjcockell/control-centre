@@ -9,12 +9,10 @@ nav_order: 1
 <div class="dashboard-grid">
 
 <div class="dashboard-card">
-<h2>>🎓 Teaching</h2>
+<h2>🎓 Teaching</h2>
 
 {% for item in site.data.bookmarks.teaching %}
-<button type="button" name="button" class="btn"><i class="fas {{ item.icon }}"></i> {{item.name}}</button>
-{{item.url}}
-<a href="{{item.url}}" class="btn">Some text</a>
+<a href="{{item.url}}" class="btn"><i class="fas {{ item.icon }}"></i> {{item.name}}</a>
 {% endfor %}
 
 </div>
