@@ -1,0 +1,12 @@
+teaching:
+- name: Canvas
+icon: fa-school
+url: https://canvas.newcastle.ac.uk
+ 
+- name: Teams
+icon: fa-microsoft
+url: https://teams.microsoft.com
+ 
+- name: GitHub
+icon: fa-github
+url: https://github.com

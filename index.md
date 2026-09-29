@@ -11,12 +11,12 @@ nav_order: 1
 <div class="dashboard-card">
 <h2>🎓 Teaching</h2>
 
-<ul>
-<li><a href="https://canvas.newcastle.ac.uk">Canvas</a></li>
-<li><a href="https://teams.microsoft.com">Teams</a></li>
-<li><a href="https://github.com">GitHub</a></li>
-<li><a href="/teaching/">Teaching Notes</a></li>
-</ul>
+{% for item in site.data.bookmarks.teaching %}
+<a href.url }}
+<i class="fa-solid {{ item.icon }}"></i>
+<span>{{ item.name }}</span>
+</a>
+{% endfor %}
 
 </div>
 
