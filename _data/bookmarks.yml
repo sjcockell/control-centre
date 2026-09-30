@@ -10,13 +10,13 @@ teaching:
   url: https://github.com
 modules:
 - name: MMB8052
-  icon: fa-solid fa-book
+  icon: fa-brands fa-r-project
   url: https://ncl.instructure.com/courses/72130
 - name: CSC8309
-  icon: fa-solid fa-book
+  icon: fa-solid fa-magnifying-glass-chart
   url: https://ncl.instructure.com/courses/69901
 - name: CMB2000
-  icon: fa-solid fa-book
+  icon: fa-solid fa-flask
   url: https://ncl.instructure.com/courses/70049
 tasks:
 - name: Teaching
