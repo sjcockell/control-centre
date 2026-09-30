@@ -22,7 +22,7 @@ nav_order: 1
 {% endfor %}
 </div>
 
-div class="dashboard-card">
+<div class="dashboard-card">
 <h2><i class="fa-solid fa-institution"></i> University Services</h2>
 {% for item in site.data.bookmarks.university %}
 <a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
@@ -50,7 +50,7 @@ div class="dashboard-card">
 </div>
 
 <div class="dashboard-card">
-<h2><i class="fa fa-check-square-o"></i> Tasks</h2>
+<h2><i class="fa fa-check-square-o" aria-hidden="true"></i> Tasks</h2>
 
 
 {% for item in site.data.bookmarks.tasks %}
