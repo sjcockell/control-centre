@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: Progress update on Control Centre development
 date: 2026-09-30
 tags:
