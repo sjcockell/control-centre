@@ -10,12 +10,18 @@ nav_order: 1
 
 <div class="dashboard-card">
 <h2>🎓 Teaching</h2>
-
 {% for item in site.data.bookmarks.teaching %}
 <a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
 {% endfor %}
-
 </div>
+
+<div class="dashboard-card">
+<h2><i class="fa-solid fa-cog"></i> Canvas</h2>
+{% for item in site.data.bookmarks.modules %}
+<a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
+{% endfor %}
+</div>
+
 
 <div class="dashboard-card">
 <h2>🧬 Research</h2>

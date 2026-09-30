@@ -1,13 +1,23 @@
 teaching:
-- name: Canvas
+- name: Canvas Dashboard
   icon: fa-solid fa-school
-  url: https://canvas.newcastle.ac.uk
-- name: Teams
-  icon: fa-brands fa-microsoft
-  url: https://teams.microsoft.com
+  url: https://ncl.instructure.com/
+- name: MyProgress
+  icon: fa-solid fa-chart-line
+  url: https://myprogress.ncl.ac.uk/
 - name: GitHub
   icon: fa-brands fa-github
   url: https://github.com
+modules:
+- name: MMB8052
+  icon: fa-solid fa-book
+  url: https://ncl.instructure.com/courses/72130
+- name: CSC8309
+  icon: fa-solid fa-book
+  url: https://ncl.instructure.com/courses/69901
+- name: CMB2000
+  icon: fa-solid fa-book
+  url: https://ncl.instructure.com/courses/70049
 tasks:
 - name: Teaching
   icon: fa-solid fa-chalkboard-user
