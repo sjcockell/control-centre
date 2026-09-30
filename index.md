@@ -12,7 +12,7 @@ nav_order: 1
 <div class="dashboard-card">
 <h2><i class="fa-solid fa-graduation-cap"></i> Teaching</h2>
 {% for item in site.data.bookmarks.teaching %}
-<a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
+<a href="{{ item.url }}" class="btn"  target="_blank"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
 {% endfor %}
 </div>
 
@@ -20,7 +20,7 @@ nav_order: 1
 <div class="dashboard-card">
 <h2><i class="fa-brands fa-empire"></i> Canvas</h2>
 {% for item in site.data.bookmarks.modules %}
-<a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}" target="_blank"></i> {{ item.name }}</a>
+<a href="{{ item.url }}" class="btn"  target="_blank"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
 {% endfor %}
 </div>
 
@@ -28,7 +28,7 @@ nav_order: 1
 <div class="dashboard-card">
 <h2><i class="fa-solid fa-institution"></i> University Services</h2>
 {% for item in site.data.bookmarks.university %}
-<a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}" target="_blank"></i> {{ item.name }}</a>
+<a href="{{ item.url }}" class="btn"  target="_blank"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
 {% endfor %}
 </div>
 
@@ -61,7 +61,7 @@ nav_order: 1
 <h2><i class="fa-solid fa-square-check"></i> Tasks</h2>
 
 {% for item in site.data.bookmarks.tasks %}
-<a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}" target="_blank"></i> {{ item.name }}</a>
+<a href="{{ item.url }}" class="btn" target="_blank"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
 {% endfor %}
 
 </div>

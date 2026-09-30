@@ -7,7 +7,7 @@ teaching:
   url: https://myprogress.ncl.ac.uk/
 - name: GitHub
   icon: fa-brands fa-github
-  url: https://github.com
+  url: https://github.com/sjcockell
 modules:
 - name: MMB8052
   icon: fa-brands fa-r-project
