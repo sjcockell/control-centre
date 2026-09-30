@@ -16,12 +16,18 @@ nav_order: 1
 </div>
 
 <div class="dashboard-card">
-<h2><i class="fa-brand fa-empire"></i> Canvas</h2>
+<h2><i class="fa fa-empire"></i> Canvas</h2>
 {% for item in site.data.bookmarks.modules %}
 <a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
 {% endfor %}
 </div>
 
+div class="dashboard-card">
+<h2><i class="fa-solid fa-institution"></i> University Services</h2>
+{% for item in site.data.bookmarks.university %}
+<a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
+{% endfor %}
+</div>
 
 <div class="dashboard-card">
 <h2><i class="fa-solid fa-microscope"></i> Research</h2>
@@ -44,7 +50,7 @@ nav_order: 1
 </div>
 
 <div class="dashboard-card">
-<h2><i class="fa-solid fa-check-square-o"></i> Tasks</h2>
+<h2><i class="fa fa-check-square-o"></i> Tasks</h2>
 
 
 {% for item in site.data.bookmarks.tasks %}

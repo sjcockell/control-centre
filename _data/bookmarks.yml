@@ -28,3 +28,11 @@ tasks:
 - name: Personal
   icon: fa-solid fa-person
   url: https://github.com/users/sjcockell/projects/1/views/3
+university:
+- name: Annual Leave
+  icon: fa-solid fa-plane-departure
+  url: https://nuabsence.ncl.ac.uk/index.php
+- name: PECs
+  icon: fa-solid fa-doctor
+  url: https://nuadmissions-prod.crm11.dynamics.com/main.aspx?appid=2640564f-96d7-489d-b8f7-178dcac2a835&pagetype=entitylist&etn=crimson_personalextenuatingcircumstance&viewid=0a610852-ca34-f111-88b3-002248c899ca&viewType=1039
+  
