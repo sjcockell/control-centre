@@ -40,11 +40,11 @@ nav_order: 1
 <div class="dashboard-card">
 <h2>✅ Tasks</h2>
 
-<ul>
-<li><a href="https://github.com/users/YOURUSERNAME/projects/1">Teaching</a></li>
-<li><a href="https://github.com/users/YOURUSERNAME/projects/2">Research Board</a></li>
-<li><a href="https://github.com/users/YOURUSERNAME/projects/3">Personal</a></li>
-</ul>
+
+{% for item in site.data.bookmarks.tasks %}
+<a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
+{% endfor %}
+
 
 </div>
 

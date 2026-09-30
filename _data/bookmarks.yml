@@ -8,3 +8,13 @@ teaching:
 - name: GitHub
   icon: fa-brands fa-github
   url: https://github.com
+tasks:
+- name: Teaching
+  icon: fa-solid fa-chalkboard-user
+  url: https://github.com/users/sjcockell/projects/1/views/1
+- name: Research
+  icon: fa-solid fa-microscope
+  url: https://github.com/users/sjcockell/projects/1/views/2
+- name: Personal
+  icon: fa-solid fa-person
+  url: https://github.com/users/sjcockell/projects/1/views/3
