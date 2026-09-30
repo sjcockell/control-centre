@@ -8,7 +8,7 @@ nav_order: 4
  
 {% for post in site.posts %}
  
-## [{{ post.title }}{ post.date | date: "%d %b %Y" }}
+<a href="{{ post.url }}">{{ post.title }} - {{ post.date | date: "%d %b %Y" }}</a>
  
 {{ post.excerpt }}
  

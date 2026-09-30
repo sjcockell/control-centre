@@ -42,10 +42,11 @@ nav_order: 1
 <div class="dashboard-card">
 <h2><i class="fa-solid fa-book"></i> Journal</h2>
 
-<ul>
-<li><a href="/journal/">Recent Entries</a></li>
-<li><a href="projects/">Project Log</a></li>
-</ul>
+{% for post in site.posts limit:5 %}
+
+<i class="fa-solid fa-circle-right"></i> <a href="{{ post.url }}">{{ post.date | date: "%d %b" }} - {{ post.title }}</a></br>
+
+{% endfor %}
 
 </div>
 
