@@ -4,7 +4,8 @@ description: Everything in one place?
 theme: just-the-docs
 color_scheme: dark
 
-url: https://sjcockell.github.io/control-centre
+url: https://sjcockell.github.io
+baseurl: /control-centre
 
 aux_links:
   GitHub: https://github.com/sjcockell
