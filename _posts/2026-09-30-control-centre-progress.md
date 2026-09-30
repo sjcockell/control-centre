@@ -6,7 +6,9 @@ tags:
 - admin
 - dev
 ---
- 
+
+{% include components/breadcrumbs.html %}
+
 The control centre is coming along nicely. Of note so far:
 
  - Prefer Font Awesome icons to emoji, quieter and cleaner

@@ -8,6 +8,7 @@ nav_order: 1
 
 <div class="dashboard-grid">
 
+<!-- TEACHING LINKS -->
 <div class="dashboard-card">
 <h2><i class="fa-solid fa-graduation-cap"></i> Teaching</h2>
 {% for item in site.data.bookmarks.teaching %}
@@ -15,6 +16,7 @@ nav_order: 1
 {% endfor %}
 </div>
 
+<!-- CANVAS -->
 <div class="dashboard-card">
 <h2><i class="fa-brands fa-empire"></i> Canvas</h2>
 {% for item in site.data.bookmarks.modules %}
@@ -22,6 +24,7 @@ nav_order: 1
 {% endfor %}
 </div>
 
+<!-- UNIVERSITY SERVICES -->
 <div class="dashboard-card">
 <h2><i class="fa-solid fa-institution"></i> University Services</h2>
 {% for item in site.data.bookmarks.university %}
@@ -29,6 +32,7 @@ nav_order: 1
 {% endfor %}
 </div>
 
+<!-- RESEARCH LINKS -->
 <div class="dashboard-card">
 <h2><i class="fa-solid fa-microscope"></i> Research</h2>
 
@@ -39,29 +43,30 @@ nav_order: 1
 
 </div>
 
+<!-- JOURNAL -->
 <div class="dashboard-card">
 <h2><i class="fa-solid fa-book"></i> Journal</h2>
 
 {% for post in site.posts limit:5 %}
 
-<i class="fa-solid fa-circle-right"></i> <a href="{{ post.url }}">{{ post.date | date: "%d %b" }} - {{ post.title }}</a>
+<i class="fa-solid fa-circle-right"></i> <a href="{{ post.url | relative_url }}">{{ post.date | date: "%d %b" }} - {{ post.title }}</a>
 <br/>
 
 {% endfor %}
 
 </div>
 
+<!-- TASKS -->
 <div class="dashboard-card">
 <h2><i class="fa-solid fa-square-check"></i> Tasks</h2>
-
 
 {% for item in site.data.bookmarks.tasks %}
 <a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}" target="_blank"></i> {{ item.name }}</a>
 {% endfor %}
 
-
 </div>
 
+<!-- PROJECTS -->
 <div class="dashboard-card dashboard-wide">
 <h2>🚀 Current Projects</h2>
 
@@ -73,6 +78,7 @@ nav_order: 1
 
 </div>
 
+<!-- RECENTLY UPDATED -->
 <div class="dashboard-card dashboard-wide">
 <h2>📝 Recently Updated</h2>
 
