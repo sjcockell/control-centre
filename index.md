@@ -9,14 +9,14 @@ nav_order: 1
 <div class="dashboard-grid">
 
 <div class="dashboard-card">
-<h2>🎓 Teaching</h2>
+<h2><i class="fa-solid fa-graduation-cap"></i> Teaching</h2>
 {% for item in site.data.bookmarks.teaching %}
 <a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
 {% endfor %}
 </div>
 
 <div class="dashboard-card">
-<h2><i class="fa-solid fa-cog"></i> Canvas</h2>
+<h2><i class="fa-brand fa-empire"></i> Canvas</h2>
 {% for item in site.data.bookmarks.modules %}
 <a href="{{ item.url }}" class="btn"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
 {% endfor %}
@@ -24,7 +24,7 @@ nav_order: 1
 
 
 <div class="dashboard-card">
-<h2>🧬 Research</h2>
+<h2><i class="fa-solid fa-microscope"></i> Research</h2>
 
 <ul>
 <li><a href="https://pubmed.ncbi.nlm.nih.gov">PubMed</a></li>
@@ -34,7 +34,7 @@ nav_order: 1
 </div>
 
 <div class="dashboard-card">
-<h2>📓 Journal</h2>
+<h2><i class="fa-solid fa-book"></i> Journal</h2>
 
 <ul>
 <li><a href="/journal/">Recent Entries</a></li>
@@ -44,7 +44,7 @@ nav_order: 1
 </div>
 
 <div class="dashboard-card">
-<h2>✅ Tasks</h2>
+<h2><i class="fa-solid fa-check-square-o"></i> Tasks</h2>
 
 
 {% for item in site.data.bookmarks.tasks %}
