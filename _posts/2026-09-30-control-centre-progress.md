@@ -2,12 +2,13 @@
 layout: default
 title: Progress update on Control Centre development
 date: 2026-09-30
+parent: Journal
 tags:
 - admin
 - dev
 ---
 
-{% include components/breadcrumbs.html %}
+# {{ page.title }}
 
 The control centre is coming along nicely. Of note so far:
 
