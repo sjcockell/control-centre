@@ -1,9 +1,9 @@
-<nav class="journal-nav">
+<div class="journal-nav">
 
   <div class="journal-nav-prev">
     {% if page.previous %}
-      {{ page.previous.url | relative_url }}
-        ← {{ page.previous.title }}
+      <a href="{{ page.previous.url | relative_url }}">
+        <i class="fa-solid fa-arrow-left"></i> {{ page.previous.title }}
       </a>
     {% else %}
       <span class="disabled">
@@ -14,14 +14,14 @@
 
   <div class="journal-nav-next">
     {% if page.next %}
-      {{ page.next.url | relative_url }}
+      <a href="{{ page.next.url | relative_url }}">
         {{ page.next.title }} <i class="fa-solid fa-arrow-right"></i>
       </a>
     {% else %}
       <span class="disabled">
-        Next →
+        Next <i class="fa-solid fa-arrow-right"></i>
       </span>
     {% endif %}
   </div>
 
-</nav>
+</div>
