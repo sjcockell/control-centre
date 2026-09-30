@@ -17,3 +17,5 @@ The control centre is coming along nicely. Of note so far:
  - How comprehensive to make link sets? Want to stop relying on browser history so much...
 
 Will continue to build, though it really should be in spare time (today was tiring and the distraction was useful).
+
+{% include journal-nav.html %}
