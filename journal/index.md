@@ -10,7 +10,7 @@ nav_order: 4
  
 <a href="{{ post.url | relative_url }}">{{ post.title }} - {{ post.date | date: "%d %b %Y" }}</a>
  
-{{ post.excerpt }} xx
+{{ post.excerpt }}
  
 ---
  
