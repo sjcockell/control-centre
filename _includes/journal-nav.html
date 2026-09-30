@@ -1,0 +1,27 @@
+<nav class="journal-nav">
+
+  <div class="journal-nav-prev">
+    {% if page.previous %}
+      {{ page.previous.url | relative_url }}
+        ← {{ page.previous.title }}
+      </a>
+    {% else %}
+      <span class="disabled">
+        <i class="fa-solid fa-arrow-left"></i> Previous
+      </span>
+    {% endif %}
+  </div>
+
+  <div class="journal-nav-next">
+    {% if page.next %}
+      {{ page.next.url | relative_url }}
+        {{ page.next.title }} <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    {% else %}
+      <span class="disabled">
+        Next →
+      </span>
+    {% endif %}
+  </div>
+
+</nav>
