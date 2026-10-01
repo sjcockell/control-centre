@@ -5,9 +5,12 @@ teaching:
 - name: MyProgress
   icon: fa-solid fa-chart-line
   url: https://myprogress.ncl.ac.uk/
-- name: GitHub
-  icon: fa-brands fa-github
-  url: https://github.com/sjcockell
+- name: MOF Catalogue
+  icon: fa-solid fa-book
+  url: https://apps.ncl.ac.uk/mofs/
+- name: Timetables
+  icon: fa-solid fa-calendar-days
+  url: https://timetables.ncl.ac.uk/
 modules:
 - name: MMB8052
   icon: fa-brands fa-r-project
@@ -35,3 +38,7 @@ university:
 - name: PECs
   icon: fa-solid fa-hospital
   url: https://nuadmissions-prod.crm11.dynamics.com/main.aspx?appid=2640564f-96d7-489d-b8f7-178dcac2a835&pagetype=entitylist&etn=crimson_personalextenuatingcircumstance&viewid=0a610852-ca34-f111-88b3-002248c899ca&viewType=1039
+research:
+- name: GitHub
+  icon: fa-brands fa-github
+  url: https://github.com/sjcockell

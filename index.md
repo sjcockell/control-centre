@@ -36,10 +36,9 @@ nav_order: 1
 <div class="dashboard-card">
 <h2><i class="fa-solid fa-microscope"></i> Research</h2>
 
-<ul>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank">PubMed</a></li>
-<li><a href="/research/">tes</a></li>
-</ul>
+{% for item in site.data.bookmarks.research %}
+<a href="{{ item.url }}" class="btn"  target="_blank"><i class="{{ item.icon }}"></i> {{ item.name }}</a>
+{% endfor %}
 
 </div>
 
