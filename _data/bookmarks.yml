@@ -11,6 +11,10 @@ teaching:
 - name: Timetables
   icon: fa-solid fa-calendar-days
   url: https://timetables.ncl.ac.uk/
+- name: Exam Timetables
+  icon: fa-solid fa-calendar-days
+  url: https://www.ncl.ac.uk/exams/exam-dates/
+
 modules:
 - name: MMB8052
   icon: fa-brands fa-r-project
@@ -21,6 +25,16 @@ modules:
 - name: CMB2000
   icon: fa-solid fa-flask
   url: https://ncl.instructure.com/courses/70049
+- name: BMS3025
+  icon: fa-solid fa-dna
+  url: https://ncl.instructure.com/courses/70283
+- name: BMD1002
+  icon: fa-solid fa-hammer
+  url: https://ncl.instructure.com/courses/74031
+- name: BMD1003
+  icon: fa-solid fa-brain
+  url: https://ncl.instructure.com/courses/74032
+
 tasks:
 - name: Teaching
   icon: fa-solid fa-chalkboard-user
@@ -31,6 +45,7 @@ tasks:
 - name: Personal
   icon: fa-solid fa-person
   url: https://github.com/users/sjcockell/projects/1/views/3
+
 university:
 - name: Annual Leave
   icon: fa-solid fa-plane-departure
@@ -38,7 +53,23 @@ university:
 - name: PECs
   icon: fa-solid fa-hospital
   url: https://nuadmissions-prod.crm11.dynamics.com/main.aspx?appid=2640564f-96d7-489d-b8f7-178dcac2a835&pagetype=entitylist&etn=crimson_personalextenuatingcircumstance&viewid=0a610852-ca34-f111-88b3-002248c899ca&viewType=1039
+- name: Resource Booker
+  icon: fa-solid fa-calendar-days
+  url: https://bookings.ncl.ac.uk/
+- name: Sharepoint Home
+  icon: fa-solid fa-house
+  url: https://newcastle.sharepoint.com/hub/biomed
+
 research:
+- name: PubMed
+  icon: fa-solid fa-magnifying-glass
+  url: https://pubmed.ncbi.nlm.nih.gov/
+- name: Google Scholar
+  icon: fa-brands fa-google-scholar
+  url: https://scholar.google.com/citations?user=CbuN1YAAAAAJ&hl=en
 - name: GitHub
   icon: fa-brands fa-github
   url: https://github.com/sjcockell
+- name: PIF
+  icon: fa-solid fa-file-lines
+  url: https://www.cognitoforms.com/NewcastleUniversity1/NewcastleUniversityNuTHProjectInitiationFormV2
